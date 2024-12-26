@@ -3,7 +3,7 @@
         'name' => 'ngtuong/fashionshop',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c0015823b362bc8e62de8359af90a2a0f11a3708',
+        'reference' => '62de51debcbda7c25a6b4f91505bc110c0b304ad',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'ngtuong/fashionshop' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c0015823b362bc8e62de8359af90a2a0f11a3708',
+            'reference' => '62de51debcbda7c25a6b4f91505bc110c0b304ad',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
