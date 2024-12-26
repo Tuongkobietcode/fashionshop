@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #f2dddc ;
+    --header-color:  #f6bcba;
+    --content-color: #f4e7f8 ;
+    --footer-color: #c3c7f4;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+    position: relative;
+}
+
+html,body{
+    width: 100%;
+}

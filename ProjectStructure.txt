@@ -1,0 +1,44 @@
+fashionconnect
+|   home.php                     -> Trang chủ Dự án URL: http://localhost:80/fashionconnect/index.php 
+|   
++---assets                              -> Thư mục chứa các file resources (CSS, JS, Images, Videos, ...)
+|   +---backend                         -> Thư mục chứa các file resources dành cho Backend (Admin)
+|   |   +---css
+|   |   |	style.css  
+|   |   |       
+|   |   \---js
+|   |           app.js
+|   |           
+|   +---frontend                        -> Thư mục chứa các file resources dành cho Frontend (Client / Customer / Viewer)
+|   |   +---css
+|   |   |       style.css
+|   |   |       
+|   |   +---img
+|   |   |       logo.png
+|   |   |       
+|   |   \---js
+|   |           app.js
+|   |           
+|   +---shared                          -> Thư mục chứa các file resources dùng chung cho cả Backend và Frontend
+|      \---img
+|           logo.jpg
+|           
+|  
+|         
+|
++---backend                             -> Thư mục chứa các file PHP xử lý nghiệp vụ dành cho Backend URL: http://localhost:80/fashionconnect/backend/index.php
+|    |   index.php
+|    | +---uploads                         -> Thư mục chứa các file do người dùng (End user / Customer / ...) upload lên Server 
+|
+|
+\---frontend                            -> Thư mục chứa các file PHP xử lý nghiệp vụ dành cho Frontend
+    |   index.php                       -> URL: http://localhost:80/fashionconnect/frontend/index.php
+    |   
+    \---pages
+        |        designers.php                     -> URL: http://localhost:80/fashionconnect/frontend/pages/designers.php           
+	    |        admin.php                  		-> URL: http://localhost:80/fashionconnect/frontend/pages/admin.php
+	    |        support.php                  	    -> URL: http://localhost:80/fashionconnect/frontend/pages/support.php              
+        \--------products
+                 products.php                      -> URL: http://localhost:80/fashionconnect/frontend/pages/products/products.php              
+                 products_items.php                -> URL: http://localhost:80/fashionconnect/frontend/pages/products/products_items.php         
+
