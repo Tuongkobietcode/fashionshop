@@ -1,5 +1,13 @@
 {
+    "name": "ngtuong/fashionshop",
+    "description": "A brief description of your project",
+    "license": "MIT",  
     "require-dev": {
         "phpunit/phpunit": "^11.5"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
+
+
